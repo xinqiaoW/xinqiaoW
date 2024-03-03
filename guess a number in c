@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+int main()
+{
+	int number, guess_number;
+	int count = 0;
+	srand(time(0));
+	number = rand() % 100 + 1;
+	printf("准备好了吗？让我们开始猜数游戏吧！\n");
+	do
+	{
+		count++;
+		printf("请输入您猜的数字\n");
+		scanf_s("%d", &guess_number);
+		if (guess_number > number)
+		{
+			printf("您猜测的数字大了，再试一次吧\n");
+		}
+		else if (number > guess_number)
+		{
+			printf("您猜测的数字小了，再试一次吧\n");
+		}
+		else
+		{
+			printf("恭喜您，猜对了！");
+		}
+	} while (guess_number != number);
+	printf("您一共猜测了%d次", count);
+	return 0;
+}
