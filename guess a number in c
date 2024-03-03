@@ -21,11 +21,7 @@ int main()
 		{
 			printf("您猜测的数字小了，再试一次吧\n");
 		}
-		else
-		{
-			printf("恭喜您，猜对了！");
-		}
 	} while (guess_number != number);
-	printf("您一共猜测了%d次", count);
+	printf("恭喜您，猜对了，您一共猜测了%d次", count);
 	return 0;
 }
