@@ -1,8 +1,5 @@
-- 👋 Hi, I’m @xinqiaoW
-- 👀 I’m interested in playing computer games.
-- 🌱 I’m currently learning programming languages,including python and c.
-- 💞️ I’m looking to collaborate on ai.
-- 📫 How to reach me .twitter:
+hahaha
+- i'm xinqiaow
   
 
 <!---
